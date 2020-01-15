@@ -3,7 +3,8 @@ import Titles from "./components/Titles";
 import Form from "./components/Form";
 import Weather from "./components/Weather";
 
-require("dotenv").config();
+// require("dotenv").config();
+
 const API_KEY = process.env.REACT_APP_API;
 console.log(process.env.REACT_APP_API);
 
