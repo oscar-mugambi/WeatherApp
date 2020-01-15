@@ -6,7 +6,7 @@ import Weather from "./components/Weather";
 // require("dotenv").config();
 
 const API_KEY = process.env.REACT_APP_API;
-console.log(process.env.REACT_APP_API);
+console.log(process.env);
 
 class App extends React.Component {
   state = {
